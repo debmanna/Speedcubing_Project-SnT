@@ -109,7 +109,7 @@ int main()
        ofstream output_file ;
        output_file.open("SolverOutput.txt");
 
-      scramble_file.open("RandomScramble1.txt");
+      scramble_file.open("RandomScramble.txt");
 
        int argc;
         char argv[100][2];
