@@ -109,11 +109,11 @@ int main()
     
        ifstream scramble_file ;
        ofstream output_file ;
-       output_file.open("SolverOutput.txt");
+       output_file.open("Data.txt");
     int TC=1000;
 
 
-    scramble_file.open("RandomScramble.txt");
+    scramble_file.open("RandomScrambleData.txt");
 
     for (int i=0;i<TC;i++){
 
